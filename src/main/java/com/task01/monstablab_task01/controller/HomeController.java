@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-//    @Autowired
-//    AccountService ac;
-//     @Autowired
-//     AccountService ac;
     @RequestMapping("/login")
     public String login(){
 //
